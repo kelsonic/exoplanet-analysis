@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>VisualizationThunderTalk</title>
+  <title>VisGuard</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <%= render 'layouts/nav' %>
+  </header>
 
-<%= yield %>
+  <main>
+    <%= yield %>
+  </main>
+
+  <%= render 'layouts/footer' %>
 
 </body>
 </html>
