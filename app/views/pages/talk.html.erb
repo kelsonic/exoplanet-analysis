@@ -1,0 +1,84 @@
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+
+<div class="row">
+  <div class="col s12 center">
+    <br/>
+    <h1>Data Visualization</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12 m10 offset-m1 l8 offset-l2 center flow-text">
+    <h2 class="red-text text-darken-2">What is it?</h2>
+    <p>Data visualization is the presentation of data in a pictorial or graphical format.</p>
+
+    <p class="red-text text-darken-2">It enables decision makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns.</p>
+
+    <p>With interactive visualization, you can take the concept a step further by using technology to drill down into charts and graphs for more detail, interactively changing what data you see and how it's processed.</p>
+  </div>
+</div>
+
+<div class="divider red darken-2"></div>
+
+<div class="row">
+  <div class="col s12 center flow-text">
+    <h2>Why is it important for you at DBC?</h2>
+
+    <p>Let's say you want to build a stocks website...</p>
+
+    <div class="row">
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <%= image_tag("http://streaming.yayimages.com/images/photographer/stuartmiles/ebb8771de08f289d1617c9adae4367cc/stocks-arrow-shows-increase-in-worth-for-stockholders.jpg", class: "responsive-img z-depth-1") %>
+      </div>
+    </div>
+
+    <p>And let's say you have this data:</p>
+
+
+
+    <p>You could visualize this data with Highcharts</p>
+
+    <p>And it may look like this:</p>
+
+    <div id="container" style="height: 400px; min-width: 310px"></div>
+  </div>
+</div>
+
+
+<script>
+  $(function () {
+      $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?a=e&filename=aapl-ohlc.json&callback=?', function (data) {
+
+          // create the chart
+          $('#container').highcharts('StockChart', {
+
+
+              rangeSelector : {
+                  selected : 1
+              },
+
+              title : {
+                  text : 'AAPL Stock Price'
+              },
+
+              series : [{
+                  type : 'candlestick',
+                  name : 'AAPL Stock Price',
+                  data : data,
+                  dataGrouping : {
+                      units : [
+                          [
+                              'week', // unit name
+                              [1] // allowed multiples
+                          ], [
+                              'month',
+                              [1, 2, 3, 4, 6]
+                          ]
+                      ]
+                  }
+              }]
+          });
+      });
+  });
+</script>
