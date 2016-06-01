@@ -10,7 +10,7 @@
 
 <div class="row">
   <div class="col s12 m10 offset-m1 l8 offset-l2 center flow-text">
-    <h2 class="red-text text-darken-2">What is it?</h2>
+    <h2 class="light-blue-text text-darken-2">What is it?</h2>
     <p>Data visualization is the presentation of data in a pictorial or graphical format.</p>
 
     <p class="red-text text-darken-2">It enables decision makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns.</p>
@@ -19,11 +19,9 @@
   </div>
 </div>
 
-<div class="divider red darken-2"></div>
-
 <div class="row">
   <div class="col s12 center flow-text">
-    <h2>Why is it important for you at DBC?</h2>
+    <h2 class="light-blue-text text-darken-2">Why is it important for you at DBC?</h2>
 
     <p>Let's say you want to build a stocks website...</p>
 
@@ -33,52 +31,37 @@
       </div>
     </div>
 
-    <p>And let's say you have this data:</p>
+    <p>And let's say you have a TON of data<br/> on Apple's stock prices over the years...</p>
 
 
 
-    <p>You could visualize this data with Highcharts</p>
+    <p class="red-text text-darken-2">You could visualize this data with <%= link_to "Highcharts", "http://www.highcharts.com/" %>.</p>
 
     <p>And it may look like this:</p>
 
     <div id="container" style="height: 400px; min-width: 310px"></div>
+
+    <br/>
+    <p class="light-blue-text text-darken-2">Or like this:</p>
+    <br/>
+
+    <div id="container2" style="height: 400px; min-width: 310px"></div>
+
+    <br/>
+    <p class="red-text text-darken-2">Or even like this:</p>
+    <br/>
+
+    <div id="container3" style="height: 400px; min-width: 310px"></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12 center m10 offset-m1 l8 offset-l2 center">
+    <h2>Ready for an actual example?</h2>
+
+    <%= link_to "Let's Go", exoplanets_data_path, class: "btn light-green" %>
   </div>
 </div>
 
 
-<script>
-  $(function () {
-      $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?a=e&filename=aapl-ohlc.json&callback=?', function (data) {
-
-          // create the chart
-          $('#container').highcharts('StockChart', {
-
-
-              rangeSelector : {
-                  selected : 1
-              },
-
-              title : {
-                  text : 'AAPL Stock Price'
-              },
-
-              series : [{
-                  type : 'candlestick',
-                  name : 'AAPL Stock Price',
-                  data : data,
-                  dataGrouping : {
-                      units : [
-                          [
-                              'week', // unit name
-                              [1] // allowed multiples
-                          ], [
-                              'month',
-                              [1, 2, 3, 4, 6]
-                          ]
-                      ]
-                  }
-              }]
-          });
-      });
-  });
-</script>
+<%= javascript_include_tag "talk" %>

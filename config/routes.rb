@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'pages#home'
+  root 'pages#talk'
 
   get 'exoplanets_data', to: "pages#data"
-  get 'talk', to: "pages#talk"
+  get 'charts', to: "pages#charts"
 end

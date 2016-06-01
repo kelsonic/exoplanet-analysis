@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def home
+  def charts
   end
 
   def data
