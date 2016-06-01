@@ -1,0 +1,44 @@
+<div class="row">
+  <div class="col s12 center">
+    <h1>Thank you <%= link_to "NASA", "http://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=planets" %> for the exoplanet data!</h1>
+  </div>
+</div>
+
+
+<table class="highlight centered">
+  <thead>
+    <tr>
+        <th>Host Name</th>
+        <th>Planet Letter</th>
+        <th>Discovery Method</th>
+        <th>Number of Planets in System</th>
+        <th>Orbital Period (days)</th>
+        <th>Orbit Semi-Major Axis (AU)</th>
+        <th>Eccentricity</th>
+        <th>Planet Mass or M*sin(i) (Jupiter Mass)</th>
+        <th>Distance (Parsecs)</th>
+        <th>Stellar Temperature (K)</th>
+        <th>Stellar Mass (Solar Mass)</th>
+        <th>Stellar Radius (Solar Radii)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @csv.each do |planet| %>
+      <tr>
+        <td><%= planet[:pl_hostname] %></td>
+        <td><%= planet[:pl_letter] %></td>
+        <td><%= planet[:pl_discmethod] %></td>
+        <td><%= planet[:pl_pnum] %></td>
+        <td><%= planet[:pl_orbper] %></td>
+        <td><%= planet[:pl_orbsmax] %></td>
+        <td><%= planet[:pl_orbeccen] %></td>
+        <td><%= planet[:pl_bmassj] %></td>
+        <td><%= planet[:st_dist] %></td>
+        <td><%= planet[:st_teff] %></td>
+        <td><%= planet[:st_mass] %></td>
+        <td><%= planet[:st_rad] %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
