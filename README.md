@@ -1,6 +1,9 @@
 # Exoplanet Analysis
 Welcome to Exoplanet Analysis. This is a presentation on the importance of data visualization.
 
+## Where do you parse the NASA data?
+`/app/assets/javascripts/charts.js`
+
 ## Technologies
 1. Ruby on Rails
 2. PapaParse API (has built in promises!)
