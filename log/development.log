@@ -11278,3 +11278,326 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-01 10:26:2
 
 
 Started GET "/assets/papaparse.min.js?body=1&papaworker" for 127.0.0.1 at 2016-06-01 10:26:27 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-01 13:46:40 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#talk as HTML
+  Rendered pages/talk.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-06-01 13:46:40 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-01 13:46:40 -0700
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-01 13:46:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-01 13:46:40 -0700
+
+
+Started GET "/assets/talk.js?body=1" for 127.0.0.1 at 2016-06-01 13:46:40 -0700
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-01 13:46:49 -0700
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (246.4ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 587ms (Views: 274.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/charts" for 127.0.0.1 at 2016-06-01 13:47:10 -0700
+Processing by PagesController#charts as HTML
+  Rendered pages/charts.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/charts.js?body=1" for 127.0.0.1 at 2016-06-01 13:47:10 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1&papaworker" for 127.0.0.1 at 2016-06-01 13:47:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-01 13:48:16 -0700
+Processing by PagesController#talk as HTML
+  Rendered pages/talk.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-01 14:14:55 -0700
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (179.3ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 459ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/charts" for 127.0.0.1 at 2016-06-01 14:15:36 -0700
+Processing by PagesController#charts as HTML
+  Rendered pages/charts.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/papaparse.min.js?body=1&papaworker" for 127.0.0.1 at 2016-06-01 14:15:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-03 21:40:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#talk as HTML
+  Rendered pages/talk.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-06-03 21:40:16 -0700
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-03 21:40:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-03 21:40:16 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-03 21:40:16 -0700
+
+
+Started GET "/assets/talk.js?body=1" for 127.0.0.1 at 2016-06-03 21:40:16 -0700
+
+
+Started GET "/charts" for 127.0.0.1 at 2016-06-03 21:40:20 -0700
+Processing by PagesController#charts as HTML
+  Rendered pages/charts.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/charts.js?body=1" for 127.0.0.1 at 2016-06-03 21:40:20 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1&papaworker" for 127.0.0.1 at 2016-06-03 21:40:20 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-03 21:40:23 -0700
+Processing by PagesController#talk as HTML
+  Rendered pages/talk.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-03 21:44:31 -0700
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (247.4ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 574ms (Views: 277.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/charts" for 127.0.0.1 at 2016-06-03 21:44:47 -0700
+Processing by PagesController#charts as HTML
+  Rendered pages/charts.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/papaparse.min.js?body=1&papaworker" for 127.0.0.1 at 2016-06-03 21:44:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 13:46:32 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#talk as HTML
+  Rendered pages/talk.html.erb within layouts/application (11.9ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 70ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-13 13:46:33 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-06-13 13:46:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-13 13:46:33 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-13 13:46:33 -0700
+
+
+Started GET "/assets/talk.js?body=1" for 127.0.0.1 at 2016-06-13 13:46:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 10:40:18 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#talk as HTML
+  Rendered pages/talk.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-06-14 10:40:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-14 10:40:18 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:18 -0700
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:40:18 -0700
+
+
+Started GET "/assets/talk.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:18 -0700
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-14 10:40:21 -0700
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (214.2ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 543ms (Views: 241.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:40:21 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:21 -0700
+
+
+Started GET "/charts" for 127.0.0.1 at 2016-06-14 10:40:23 -0700
+Processing by PagesController#charts as HTML
+  Rendered pages/charts.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/charts.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:23 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1&papaworker" for 127.0.0.1 at 2016-06-14 10:40:23 -0700
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-14 10:40:26 -0700
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (214.4ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 527ms (Views: 240.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:40:27 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:27 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 10:40:29 -0700
+Processing by PagesController#talk as HTML
+  Rendered pages/talk.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:40:29 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:29 -0700
+
+
+Started GET "/assets/talk.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:29 -0700
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-14 10:40:49 -0700
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (219.1ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 553ms (Views: 252.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:40:50 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:40:50 -0700
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-14 10:41:36 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (221.2ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 559ms (Views: 277.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-06-14 10:41:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-14 10:41:36 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:41:36 -0700
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:41:36 -0700
+
+
+Started GET "/exoplanets_data" for 127.0.0.1 at 2016-06-14 10:42:40 -0700
+Processing by PagesController#data as HTML
+  Rendered pages/data.html.erb within layouts/application (204.8ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 478ms (Views: 228.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-06-14 10:42:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-14 10:42:40 -0700
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:42:40 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:42:40 -0700
+
+
+Started GET "/charts" for 127.0.0.1 at 2016-06-14 10:42:51 -0700
+Processing by PagesController#charts as HTML
+  Rendered pages/charts.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_nav.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-06-14 10:42:51 -0700
+
+
+Started GET "/assets/materialize.css?body=1" for 127.0.0.1 at 2016-06-14 10:42:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-06-14 10:42:51 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1" for 127.0.0.1 at 2016-06-14 10:42:51 -0700
+
+
+Started GET "/assets/papaparse.min.js?body=1&papaworker" for 127.0.0.1 at 2016-06-14 10:42:51 -0700
