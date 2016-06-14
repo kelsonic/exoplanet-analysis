@@ -11628,3 +11628,30 @@ Started GET "/assets/charts.self.js?body=1" for 127.0.0.1 at 2016-06-14 10:47:50
 
 
 Started GET "/assets/papaparse.min.self.js?body=1&papaworker" for 127.0.0.1 at 2016-06-14 10:47:50 -0700
+
+
+Started GET "/charts" for 127.0.0.1 at 2016-06-14 10:57:33 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#charts as HTML
+  Rendered pages/charts.html.erb within layouts/application (155.9ms)
+  Rendered layouts/_nav.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 196ms (Views: 187.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self.css?body=1" for 127.0.0.1 at 2016-06-14 10:57:33 -0700
+
+
+Started GET "/assets/charts.self.js?body=1" for 127.0.0.1 at 2016-06-14 10:57:33 -0700
+
+
+Started GET "/assets/materialize.self.css?body=1" for 127.0.0.1 at 2016-06-14 10:57:33 -0700
+
+
+Started GET "/assets/papaparse.min.self.js?body=1" for 127.0.0.1 at 2016-06-14 10:57:33 -0700
+
+
+Started GET "/assets/application.self.css?body=1" for 127.0.0.1 at 2016-06-14 10:57:33 -0700
+
+
+Started GET "/assets/papaparse.min.self.js?body=1&papaworker" for 127.0.0.1 at 2016-06-14 10:57:34 -0700
