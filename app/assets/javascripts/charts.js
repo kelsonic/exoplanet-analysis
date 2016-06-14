@@ -15,7 +15,7 @@
 
 var list = []
 
-Papa.parse("http://localhost:3000/planets.csv", {
+Papa.parse("https://exoplanet-analysis.herokuapp.com/planets.csv", {
     download: true,
     header: true,
     worker: true,
