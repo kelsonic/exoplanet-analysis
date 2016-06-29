@@ -26,7 +26,7 @@ You may be missing API keys. If so, the APIs we use are listed below.
 
 #### Where do you get the data?
 
-NASA. View the [data here](https://exoplanet-analysis.herokuapp.com/exoplanets_data).
+NASA. View the [data here](https://exoplanet-analysis.herokuapp.com/exoplanets_data), or [view the entire website](https://exoplanet-analysis.herokuapp.com).
 
 ![Exoplanet Analysis example](/app/assets/images/readme-image.jpg)
 
