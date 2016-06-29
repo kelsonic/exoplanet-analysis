@@ -1,17 +1,42 @@
-# Exoplanet Analysis
-Welcome to Exoplanet Analysis. This is a presentation on the importance of data visualization.
+![Exoplanet Analysis](/app/assets/images/readme-logo.png)
 
-## Where do you parse the NASA data?
+Welcome to Exoplanet Analysis. This is a presentation on the importance of data visualization. (Built with Ruby on Rails).
+
+## Installation
+
+```
+git clone https://github.com/kelsonic/exoplanet-analysis.git
+
+cd /exoplanet-analysis
+
+bundle
+
+bundle exec rake db:migrate
+
+bundle exec rails server
+```
+
+You may be missing API keys. If so, the APIs we use are listed below.
+
+## Usage
+
+#### Where do you parse the NASA data?
+
 `/app/assets/javascripts/charts.js`
 
-## Technologies
-1. Ruby on Rails
-2. PapaParse API (has built in promises!)
-3. Highcharts
+#### Where do you get the data?
 
-## Contributors
-1. ttalhouk
-2. kelsonic
+NASA. View the [data here](https://exoplanet-analysis.herokuapp.com/exoplanets_data).
 
-## Contributing
-MIT License. Please help out building the project if you're interested!
+![Exoplanet Analysis example](/app/assets/images/readme-image.jpg)
+
+## APIs
+* PapaParse
+* Highcharts
+
+## Credits
+* [ttalhouk](https://github.com/ttalhouk)
+* [Kelsonic](https://github.com/kelsonic)
+
+## License
+MIT License. View it [here](LICENSE).
